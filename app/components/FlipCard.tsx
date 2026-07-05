@@ -67,13 +67,14 @@ export default function FlipCard({
           className="absolute w-full h-full bg-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center cursor-pointer border border-kajabi-lightGreen/20"
           style={{ backfaceVisibility: 'hidden' }}
         >
-          <div className="relative w-40 h-40 mb-4 rounded-full overflow-hidden border-4 border-kajabi-warmTan">
+          <div className="relative w-40 h-40 mb-4 rounded-full overflow-hidden border-4 border-kajabi-warmTan flex-shrink-0">
             <Image
               src={photo}
               alt={name}
               fill
-              className="object-cover"
+              className="object-cover object-center"
               priority
+              sizes="(max-width: 640px) 160px, 160px"
             />
           </div>
 
