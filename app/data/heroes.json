@@ -9,7 +9,9 @@
     "gmv": "$2M",
     "photo": "/heroes/Abigail_Wald.jpeg",
     "csmFocus": "Pivot strategy and optimization opportunities around annual billing and plan upgrades.",
+    "csmContext": "At $2M GMV with 9+ years of tenure, Abigail is ready for revenue optimization. Opportunity to shift more users to annual billing and explore higher-tier plans.",
     "engineeringFocus": "Exploring product roadmap alignment, API customizations, and scalability needs.",
+    "engineeringContext": "Scaling demands require tighter integration with product roadmap. API customizations needed for her advanced workflows.",
     "docLink": "https://docs.google.com/document/d/1WmgVwFl7orqJGV1b744_Fna87OMf3cLyomwna0DwYfY/edit?usp=drive_link"
   },
   {
@@ -22,7 +24,9 @@
     "gmv": "$112K",
     "photo": "/heroes/Hannah_Summerhill.jpeg",
     "csmFocus": "Plan upgrade alignment and peer connection opportunities with similar-stage creators.",
+    "csmContext": "Hannah is finding early success with strong retention signals. Building community with peers at similar stage can drive retention and upsell through social proof.",
     "engineeringFocus": "Membership features, course sequencing, and retention optimization.",
+    "engineeringContext": "Feature requests center on member retention mechanics—course sequence recommendations, engagement analytics, and community tools.",
     "docLink": "https://docs.google.com/document/d/10214NjnC4zvl-zz0JZ08oiBu2OQirkF90Q-pByw4Fos/edit?usp=drive_link"
   },
   {
@@ -35,7 +39,9 @@
     "gmv": "$15.7K",
     "photo": "/heroes/Joeseph_Beckmann.jpeg",
     "csmFocus": "Membership launch strategy, TikTok funnel optimization, and growth acceleration.",
+    "csmContext": "Early-stage momentum from TikTok traffic. Focus on converting free viewers to paid members and establishing predictable growth patterns.",
     "engineeringFocus": "Membership setup, automation workflows, and social integration.",
+    "engineeringContext": "Social platform integration (TikTok, Instagram) is critical for funnel. Automation workflows needed to nurture large traffic volumes.",
     "docLink": "https://docs.google.com/document/d/1anpObUEvGFPwBJ9mjRXOP5ztDTRJjQPEbuNXeurOEWo/edit?usp=drive_link"
   },
   {
@@ -48,7 +54,9 @@
     "gmv": "$1.18M",
     "photo": "/heroes/John_Henny.webp",
     "csmFocus": "Plan alignment conversation (Founders plan underpriced relative to GMV). AI product exploration.",
+    "csmContext": "Long-standing customer with strong revenue but on entry-level plan. Clear upsell opportunity. Also interested in testing AI features for client personalization.",
     "engineeringFocus": "API customizations, advanced automations, and integration opportunities.",
+    "engineeringContext": "Wants to integrate Kajabi with third-party fitness platforms and build custom client management experiences through API access.",
     "docLink": "https://docs.google.com/document/d/1naa32PkszayE0oT3M0wOZXxRrrmoIP1EESa6qX2x7rI/edit?usp=drive_link"
   },
   {
@@ -61,7 +69,9 @@
     "gmv": "$10K",
     "photo": "/heroes/John_Quirk.jpeg",
     "csmFocus": "Backstage feature adoption, corporate pivot strategy, and GTM alignment.",
+    "csmContext": "Transitioning business model from B2C to B2B (Backstage/white-label). Needs strategic guidance on pricing, positioning, and go-to-market for corporate clients.",
     "engineeringFocus": "Backstage functionality, API integrations, and enterprise features.",
+    "engineeringContext": "Backstage platform requires deep customization and white-label capabilities. Enterprise API features needed for corporate integrations.",
     "docLink": "https://docs.google.com/document/d/1Veqfyr3bXwu2bl9tLGUIRbIAMaDzLZjcLwdO1d7PikA/edit?usp=drive_link"
   },
   {
@@ -74,7 +84,9 @@
     "gmv": "$3.16M",
     "photo": "/heroes/Kate_Butler.jpeg",
     "csmFocus": "+38.7% YoY growth. Acceleration phase: annual billing strategy, processor consolidation, unused add-ons.",
+    "csmContext": "Explosive growth requires operational efficiency improvements. Opportunity to consolidate payment processors, optimize billing, and clean up unused features to reduce costs.",
     "engineeringFocus": "Advanced billing features, payment optimization, and API expansion.",
+    "engineeringContext": "High-volume payment processing requires advanced billing controls, revenue reporting, and integration with accounting systems.",
     "docLink": "https://docs.google.com/document/d/1H2glM_ObBnQ1L5PDmLJECzAzW6k7BVMneu0BRBngKyc/edit?usp=drive_link"
   },
   {
@@ -87,7 +99,9 @@
     "gmv": "$8K",
     "photo": "/heroes/Nisha_Ryan.jpg",
     "csmFocus": "New user activation, product education, and rapid onboarding support.",
+    "csmContext": "Very new customer with early traction. Intensive onboarding and education needed to maximize platform usage and reduce churn during critical early months.",
     "engineeringFocus": "Customization requests, Instagram integration, and social feature exploration.",
+    "engineeringContext": "Instagram is primary traffic channel. Needs native IG integration for seamless customer journey from discovery to course enrollment.",
     "docLink": "https://docs.google.com/document/d/1c6VYUQEugi70DYd5w8jW6mC_pCWBda4icd6MJyktvwA/edit?usp=drive_link"
   },
   {
@@ -100,7 +114,9 @@
     "gmv": "$1.41M",
     "photo": "/heroes/Michelle_Grinberg.jpeg",
     "csmFocus": "URGENT: Contacts at 85%, products/sites maxed. Proactive conversation within 3-6 months on plan upgrade.",
+    "csmContext": "At resource ceiling across contacts and products. Immediate plan upgrade conversation needed to avoid service disruption. High churn risk if not addressed soon.",
     "engineeringFocus": "Enterprise features, API access, and advanced customizations.",
+    "engineeringContext": "Enterprise plan needed to increase limits and enable custom integrations with her external student information system.",
     "docLink": "https://docs.google.com/document/d/18Q0gc5-QUxBcQdmQbtiasVmhc1XgaqM19Ec7twk9V2w/edit?usp=drive_link"
   },
   {
@@ -113,7 +129,9 @@
     "gmv": "$7.1M",
     "photo": "/heroes/Nathania_Stambouli.jpeg",
     "csmFocus": "CRITICAL: Contacts at 92% ceiling. CSM must act within 2 weeks of event for plan alignment conversation.",
+    "csmContext": "Highest-revenue customer at critical ceiling point. Any growth event (new market entry, partnership) will hit hard contact limits. Proactive intervention required to retain.",
     "engineeringFocus": "Enterprise API features, custom integrations, and advanced automation.",
+    "engineeringContext": "Needs enterprise-grade API for scaling to multiple team members and integrating with CRM and email platforms at high volume.",
     "docLink": "https://docs.google.com/document/d/1_NPyHh871_G24kRp-MHBEevAqk5u71rmj2LbRDM9-Hc/edit?usp=drive_link"
   },
   {
@@ -126,7 +144,9 @@
     "gmv": "$1M+",
     "photo": "/heroes/Me_headshot_author_renee_tucker_vanessa_logo_conference_2025_copy.png",
     "csmFocus": "Active GHL user: DO NOT push KP. Honor boundary explicitly. Relationship preservation focus.",
+    "csmContext": "Long-term customer satisfied with current setup. Uses Kajabi light touch only (primarily GHL). Over-selling or feature pushing will damage relationship. Maintenance mode focus.",
     "engineeringFocus": "GHL integrations, API stability, and support for external platform use.",
+    "engineeringContext": "Relies heavily on GHL for CRM functions. Kajabi is supporting tool. API stability and smooth GHL sync is critical.",
     "docLink": "https://docs.google.com/document/d/1ScRP_r3W95SIoCHFMyo_Lb813dm4SnkX3F3OmzxzrLE/edit?usp=drive_link"
   },
   {
@@ -139,7 +159,9 @@
     "gmv": "$346K",
     "photo": "/heroes/Steve_Ganz.jpeg",
     "csmFocus": "Mahesh's personal connection. Partner cliff date approaching (2026-07-23). Renegotiation conversation needed.",
+    "csmContext": "Partner deal with aggressive cliff approaching. Personal relationship with Mahesh is relationship's foundation. Renegotiation strategy needed to extend or refresh terms.",
     "engineeringFocus": "Partner integrations, custom features, and long-term roadmap alignment.",
+    "engineeringContext": "Deeply customized setup with multiple partner integrations. Roadmap alignment critical for partnership sustainability.",
     "docLink": "https://docs.google.com/document/d/1qClvD3PN5HN3NIbjJBURt-654B-1WgtsOfzA8Q52JTo/edit?usp=drive_link"
   },
   {
@@ -152,7 +174,9 @@
     "gmv": "$1.44M",
     "photo": "/heroes/Steve_Ganz.jpeg",
     "csmFocus": "Funnel ceiling at 13/15. API clarity and custom integration strategy.",
+    "csmContext": "Growing rapidly but hitting funnel limit. Needs either plan upgrade or custom development for multi-funnel workflows. API capabilities not yet understood.",
     "engineeringFocus": "Funnel optimization, API documentation, custom development opportunities.",
+    "engineeringContext": "Complex funnel setup for retreat marketing needs. API docs need improvement. Custom integrations with CRM and email may unlock next growth phase.",
     "docLink": "https://docs.google.com/document/d/1WzFYThm3s2tsBg6-nshZP5kvxz9WxgkcAhebOrCNH38/edit?usp=drive_link"
   },
   {
@@ -165,7 +189,9 @@
     "gmv": "$2.46M",
     "photo": "/heroes/Terry_Carter.jpeg",
     "csmFocus": "Contacts at 67%, products maxed. Strategic conversation on plan expansion and feature adoption.",
+    "csmContext": "Strong revenue but underutilizing available limits. Opportunity to expand to higher tier while also driving adoption of currently unused advanced features.",
     "engineeringFocus": "Advanced features, API integrations, and enterprise customizations.",
+    "engineeringContext": "Enterprise customer needs advanced features like custom reporting, advanced automation, and third-party integrations for team productivity.",
     "docLink": "https://docs.google.com/document/d/1IoF5uc18KdN2Pk3oNwf9i4vPZ_CrpNLOSJqXWJ2AeAw/edit?usp=drive_link"
   }
 ]

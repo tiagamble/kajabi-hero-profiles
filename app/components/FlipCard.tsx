@@ -14,7 +14,9 @@ interface HeroCardProps {
   gmv: string
   photo: string
   csmFocus: string
+  csmContext: string
   engineeringFocus: string
+  engineeringContext: string
   docLink: string
 }
 
@@ -27,7 +29,9 @@ export default function FlipCard({
   gmv,
   photo,
   csmFocus,
+  csmContext,
   engineeringFocus,
+  engineeringContext,
   docLink,
 }: HeroCardProps) {
   const [isFlipped, setIsFlipped] = useState(false)
@@ -124,19 +128,29 @@ export default function FlipCard({
             transform: 'rotateY(180deg)',
           }}
         >
-          <h4 className="text-sm font-semibold text-kajabi-gold uppercase tracking-wide mb-3 border-b border-kajabi-lightGreen/20 pb-2">
-            CSM Focus
-          </h4>
-          <p className="text-xs text-kajabi-white leading-relaxed mb-4">
-            {csmFocus}
-          </p>
+          <div className="mb-4">
+            <h4 className="text-sm font-semibold text-kajabi-gold uppercase tracking-wide mb-2 border-b border-kajabi-lightGreen/20 pb-2">
+              CSM Focus
+            </h4>
+            <p className="text-xs text-kajabi-white leading-relaxed font-medium mb-2">
+              {csmFocus}
+            </p>
+            <p className="text-xs text-kajabi-white/80 leading-relaxed italic">
+              {csmContext}
+            </p>
+          </div>
 
-          <h4 className="text-sm font-semibold text-kajabi-gold uppercase tracking-wide mb-3 border-b border-kajabi-lightGreen/20 pb-2">
-            Engineering Focus
-          </h4>
-          <p className="text-xs text-kajabi-white leading-relaxed mb-4">
-            {engineeringFocus}
-          </p>
+          <div className="mb-4">
+            <h4 className="text-sm font-semibold text-kajabi-gold uppercase tracking-wide mb-2 border-b border-kajabi-lightGreen/20 pb-2">
+              Engineering Focus
+            </h4>
+            <p className="text-xs text-kajabi-white leading-relaxed font-medium mb-2">
+              {engineeringFocus}
+            </p>
+            <p className="text-xs text-kajabi-white/80 leading-relaxed italic">
+              {engineeringContext}
+            </p>
+          </div>
 
           <div className="mt-auto pt-3 border-t border-kajabi-lightGreen/20">
             <Link

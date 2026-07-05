@@ -4,9 +4,18 @@ import { useState, useMemo } from 'react'
 import FlipCard from './components/FlipCard'
 import heroes from './data/heroes.json'
 
+const STAGE_DEFINITIONS = {
+  Launch: 'Early-stage business (0-6 months). Focus on product-market fit, initial growth, and establishing predictable revenue patterns.',
+  Growth: 'Accelerating business (6 months - 2 years). Strong traction with growing revenue. Focus on scaling operations and optimizing unit economics.',
+  Scale: 'Established and growing (2+ years). $1M+ GMV. Focus on profitability, operational efficiency, and revenue acceleration.',
+  Established: 'Mature business (5+ years). Strong revenue ($1M+) with predictable growth. Focus on optimization, enterprise features, and strategic partnerships.',
+  Transition: 'Pivoting business model or market. Exploring new revenue streams or customer segments while maintaining existing business.',
+}
+
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('')
   const [filterStage, setFilterStage] = useState<string | null>(null)
+  const [showStageInfo, setShowStageInfo] = useState(false)
 
   const filteredHeroes = useMemo(() => {
     return heroes.filter((hero) => {
@@ -48,7 +57,7 @@ export default function Home() {
               className="w-full px-4 py-2.5 border border-kajabi-lightGreen/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-kajabi-warmTan focus:border-transparent text-kajabi-black placeholder-kajabi-darkGreen/50"
             />
 
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 items-center">
               <button
                 onClick={() => setFilterStage(null)}
                 className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
@@ -72,7 +81,28 @@ export default function Home() {
                   {stage}
                 </button>
               ))}
+              <button
+                onClick={() => setShowStageInfo(!showStageInfo)}
+                className="ml-auto px-3 py-1.5 rounded-full text-sm font-medium bg-kajabi-lightGreen/20 text-kajabi-darkGreen hover:bg-kajabi-lightGreen/30 transition-colors"
+                title="Show stage definitions"
+              >
+                ℹ️ Stages
+              </button>
             </div>
+
+            {showStageInfo && (
+              <div className="mt-4 p-4 bg-kajabi-lightGreen/10 border border-kajabi-lightGreen/30 rounded-lg">
+                <h3 className="text-sm font-semibold text-kajabi-darkGreen mb-3">Stage Definitions</h3>
+                <div className="grid gap-3">
+                  {Object.entries(STAGE_DEFINITIONS).map(([stage, definition]) => (
+                    <div key={stage} className="text-xs">
+                      <p className="font-semibold text-kajabi-darkGreen mb-1">{stage}</p>
+                      <p className="text-kajabi-darkGreen/80">{definition}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
