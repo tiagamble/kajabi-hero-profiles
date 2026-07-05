@@ -17,6 +17,7 @@ interface HeroCardProps {
   csmContext: string
   engineeringFocus: string
   engineeringContext: string
+  currentProducts: string
   docLink: string
 }
 
@@ -32,6 +33,7 @@ export default function FlipCard({
   csmContext,
   engineeringFocus,
   engineeringContext,
+  currentProducts,
   docLink,
 }: HeroCardProps) {
   const [isFlipped, setIsFlipped] = useState(false)
@@ -67,14 +69,14 @@ export default function FlipCard({
           className="absolute w-full h-full bg-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center cursor-pointer border border-kajabi-lightGreen/20"
           style={{ backfaceVisibility: 'hidden' }}
         >
-          <div className="relative w-40 h-40 mb-4 rounded-full overflow-hidden border-4 border-kajabi-warmTan flex-shrink-0">
+          <div className="relative w-48 h-48 mb-4 rounded-full overflow-hidden border-4 border-kajabi-warmTan flex-shrink-0">
             <Image
               src={photo}
               alt={name}
               fill
-              className="object-cover object-center"
+              className="object-contain object-center"
               priority
-              sizes="(max-width: 640px) 160px, 160px"
+              sizes="(max-width: 640px) 192px, 192px"
             />
           </div>
 
@@ -148,9 +150,15 @@ export default function FlipCard({
             <p className="text-xs text-kajabi-white leading-relaxed font-medium mb-2">
               {engineeringFocus}
             </p>
-            <p className="text-xs text-kajabi-white/80 leading-relaxed italic">
+            <p className="text-xs text-kajabi-white/80 leading-relaxed italic mb-3">
               {engineeringContext}
             </p>
+            <div className="bg-kajabi-darkGreen/50 rounded p-2 mb-2">
+              <p className="text-xs text-kajabi-gold font-semibold mb-1">Current Products:</p>
+              <p className="text-xs text-kajabi-white leading-relaxed">
+                {currentProducts}
+              </p>
+            </div>
           </div>
 
           <div className="mt-auto pt-3 border-t border-kajabi-lightGreen/20">

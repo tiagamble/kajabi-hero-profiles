@@ -12,6 +12,7 @@
     "csmContext": "At $2M GMV with 9+ years of tenure, Abigail is ready for revenue optimization. Opportunity to shift more users to annual billing and explore higher-tier plans.",
     "engineeringFocus": "Exploring product roadmap alignment, API customizations, and scalability needs.",
     "engineeringContext": "Scaling demands require tighter integration with product roadmap. API customizations needed for her advanced workflows.",
+    "currentProducts": "Courses, Community, Email Marketing, Automations, Membership",
     "docLink": "https://docs.google.com/document/d/1WmgVwFl7orqJGV1b744_Fna87OMf3cLyomwna0DwYfY/edit?usp=drive_link"
   },
   {
@@ -27,6 +28,7 @@
     "csmContext": "Hannah is finding early success with strong retention signals. Building community with peers at similar stage can drive retention and upsell through social proof.",
     "engineeringFocus": "Membership features, course sequencing, and retention optimization.",
     "engineeringContext": "Feature requests center on member retention mechanics—course sequence recommendations, engagement analytics, and community tools.",
+    "currentProducts": "Membership, Email Marketing, Courses, Funnels",
     "docLink": "https://docs.google.com/document/d/10214NjnC4zvl-zz0JZ08oiBu2OQirkF90Q-pByw4Fos/edit?usp=drive_link"
   },
   {
@@ -42,6 +44,7 @@
     "csmContext": "Early-stage momentum from TikTok traffic. Focus on converting free viewers to paid members and establishing predictable growth patterns.",
     "engineeringFocus": "Membership setup, automation workflows, and social integration.",
     "engineeringContext": "Social platform integration (TikTok, Instagram) is critical for funnel. Automation workflows needed to nurture large traffic volumes.",
+    "currentProducts": "Membership, Funnels, Automations, Email",
     "docLink": "https://docs.google.com/document/d/1anpObUEvGFPwBJ9mjRXOP5ztDTRJjQPEbuNXeurOEWo/edit?usp=drive_link"
   },
   {
@@ -57,6 +60,7 @@
     "csmContext": "Long-standing customer with strong revenue but on entry-level plan. Clear upsell opportunity. Also interested in testing AI features for client personalization.",
     "engineeringFocus": "API customizations, advanced automations, and integration opportunities.",
     "engineeringContext": "Wants to integrate Kajabi with third-party fitness platforms and build custom client management experiences through API access.",
+    "currentProducts": "Courses, Community, Coaching Sessions, Email, Automations, API Access",
     "docLink": "https://docs.google.com/document/d/1naa32PkszayE0oT3M0wOZXxRrrmoIP1EESa6qX2x7rI/edit?usp=drive_link"
   },
   {
@@ -72,6 +76,7 @@
     "csmContext": "Transitioning business model from B2C to B2B (Backstage/white-label). Needs strategic guidance on pricing, positioning, and go-to-market for corporate clients.",
     "engineeringFocus": "Backstage functionality, API integrations, and enterprise features.",
     "engineeringContext": "Backstage platform requires deep customization and white-label capabilities. Enterprise API features needed for corporate integrations.",
+    "currentProducts": "Courses, Backstage (White-label), Funnels, Email",
     "docLink": "https://docs.google.com/document/d/1Veqfyr3bXwu2bl9tLGUIRbIAMaDzLZjcLwdO1d7PikA/edit?usp=drive_link"
   },
   {
@@ -87,6 +92,7 @@
     "csmContext": "Explosive growth requires operational efficiency improvements. Opportunity to consolidate payment processors, optimize billing, and clean up unused features to reduce costs.",
     "engineeringFocus": "Advanced billing features, payment optimization, and API expansion.",
     "engineeringContext": "High-volume payment processing requires advanced billing controls, revenue reporting, and integration with accounting systems.",
+    "currentProducts": "Courses, Coaching Sessions, Membership, Community, Email, Advanced Automations, Payment Processing",
     "docLink": "https://docs.google.com/document/d/1H2glM_ObBnQ1L5PDmLJECzAzW6k7BVMneu0BRBngKyc/edit?usp=drive_link"
   },
   {
@@ -102,6 +108,7 @@
     "csmContext": "Very new customer with early traction. Intensive onboarding and education needed to maximize platform usage and reduce churn during critical early months.",
     "engineeringFocus": "Customization requests, Instagram integration, and social feature exploration.",
     "engineeringContext": "Instagram is primary traffic channel. Needs native IG integration for seamless customer journey from discovery to course enrollment.",
+    "currentProducts": "Courses, Email Marketing, Funnels, Instagram Integration",
     "docLink": "https://docs.google.com/document/d/1c6VYUQEugi70DYd5w8jW6mC_pCWBda4icd6MJyktvwA/edit?usp=drive_link"
   },
   {
@@ -117,6 +124,7 @@
     "csmContext": "At resource ceiling across contacts and products. Immediate plan upgrade conversation needed to avoid service disruption. High churn risk if not addressed soon.",
     "engineeringFocus": "Enterprise features, API access, and advanced customizations.",
     "engineeringContext": "Enterprise plan needed to increase limits and enable custom integrations with her external student information system.",
+    "currentProducts": "Courses (at limit), Multiple Sites (at limit), Coaching, Community, Email, Automations",
     "docLink": "https://docs.google.com/document/d/18Q0gc5-QUxBcQdmQbtiasVmhc1XgaqM19Ec7twk9V2w/edit?usp=drive_link"
   },
   {
@@ -132,6 +140,7 @@
     "csmContext": "Highest-revenue customer at critical ceiling point. Any growth event (new market entry, partnership) will hit hard contact limits. Proactive intervention required to retain.",
     "engineeringFocus": "Enterprise API features, custom integrations, and advanced automation.",
     "engineeringContext": "Needs enterprise-grade API for scaling to multiple team members and integrating with CRM and email platforms at high volume.",
+    "currentProducts": "Courses, Multiple Sites, Membership, Coaching, CRM Integrations, Advanced Automations (at contact limit)",
     "docLink": "https://docs.google.com/document/d/1_NPyHh871_G24kRp-MHBEevAqk5u71rmj2LbRDM9-Hc/edit?usp=drive_link"
   },
   {
@@ -147,6 +156,7 @@
     "csmContext": "Long-term customer satisfied with current setup. Uses Kajabi light touch only (primarily GHL). Over-selling or feature pushing will damage relationship. Maintenance mode focus.",
     "engineeringFocus": "GHL integrations, API stability, and support for external platform use.",
     "engineeringContext": "Relies heavily on GHL for CRM functions. Kajabi is supporting tool. API stability and smooth GHL sync is critical.",
+    "currentProducts": "Courses, Email (via GHL), GHL Integration (primary CRM)",
     "docLink": "https://docs.google.com/document/d/1ScRP_r3W95SIoCHFMyo_Lb813dm4SnkX3F3OmzxzrLE/edit?usp=drive_link"
   },
   {
@@ -162,6 +172,7 @@
     "csmContext": "Partner deal with aggressive cliff approaching. Personal relationship with Mahesh is relationship's foundation. Renegotiation strategy needed to extend or refresh terms.",
     "engineeringFocus": "Partner integrations, custom features, and long-term roadmap alignment.",
     "engineeringContext": "Deeply customized setup with multiple partner integrations. Roadmap alignment critical for partnership sustainability.",
+    "currentProducts": "Courses, Community, Coaching, Partner Integrations, Custom Features",
     "docLink": "https://docs.google.com/document/d/1qClvD3PN5HN3NIbjJBURt-654B-1WgtsOfzA8Q52JTo/edit?usp=drive_link"
   },
   {
@@ -177,6 +188,7 @@
     "csmContext": "Growing rapidly but hitting funnel limit. Needs either plan upgrade or custom development for multi-funnel workflows. API capabilities not yet understood.",
     "engineeringFocus": "Funnel optimization, API documentation, custom development opportunities.",
     "engineeringContext": "Complex funnel setup for retreat marketing needs. API docs need improvement. Custom integrations with CRM and email may unlock next growth phase.",
+    "currentProducts": "Funnels (at limit), Email Marketing, Courses, Payment Processing, Analytics",
     "docLink": "https://docs.google.com/document/d/1WzFYThm3s2tsBg6-nshZP5kvxz9WxgkcAhebOrCNH38/edit?usp=drive_link"
   },
   {
@@ -192,6 +204,7 @@
     "csmContext": "Strong revenue but underutilizing available limits. Opportunity to expand to higher tier while also driving adoption of currently unused advanced features.",
     "engineeringFocus": "Advanced features, API integrations, and enterprise customizations.",
     "engineeringContext": "Enterprise customer needs advanced features like custom reporting, advanced automation, and third-party integrations for team productivity.",
+    "currentProducts": "Courses, Multiple Sites (at limit), Coaching, Community, Email, Automations, Advanced Reporting",
     "docLink": "https://docs.google.com/document/d/1IoF5uc18KdN2Pk3oNwf9i4vPZ_CrpNLOSJqXWJ2AeAw/edit?usp=drive_link"
   }
 ]
