@@ -1,9 +1,8 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import Image from 'next/image'
-import FlipCard from '@/components/FlipCard'
-import heroes from '@/data/heroes.json'
+import FlipCard from './components/FlipCard'
+import heroes from './data/heroes.json'
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('')

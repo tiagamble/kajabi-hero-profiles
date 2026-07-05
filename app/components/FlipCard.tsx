@@ -19,7 +19,6 @@ interface HeroCardProps {
 }
 
 export default function FlipCard({
-  id,
   name,
   businessName,
   niche,
