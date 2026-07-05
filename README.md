@@ -1,64 +1,21 @@
 # Kajabi Hero Open House - Flip Card Site
 
-A production-ready Next.js site showcasing Kajabi Heroes with interactive flip cards, real-time search, and stage-based filtering.
+A Next.js site for the Kajabi Hero Open House event. Features interactive cards showing all the Heroes attending, with search and filtering.
 
-## 🎯 Overview
+## What This Does
 
-Interactive flip card gallery featuring 13 Kajabi Heroes with:
-- **Front**: Hero photo, business name, niche, stage, tenure, GMV
-- **Back**: CSM focus, Engineering focus, link to full profile
-- **Features**: Real-time search, stage filtering, mobile responsive
+Shows 13 Kajabi Heroes on flip cards. Click a card to see CSM and engineering insights. Search by name or business. Filter by business stage.
 
-Built for the Kajabi Hero Open House event (July 13, 2026, Irvine HQ).
+Built for the July 13 event at Kajabi HQ in Irvine.
 
-## ✨ Features
+## Features
 
-- 🎨 **Kajabi Branded** — Full color palette, Haffer + Inter typography
-- 🔄 **3D Flip Animation** — Smooth card flip on click
-- 🔍 **Real-Time Search** — Filter by name, business, or niche
-- 🏷️ **Stage Filtering** — Launch, Growth, Scale, Established, Transition
-- 📱 **Mobile Responsive** — Works on phone, tablet, desktop
-- 🎯 **Direct Links** — Each card links to full Google Doc profile
-- ⚡ **Optimized** — Fast load, image optimization, lazy loading
+Interactive flip cards with hero photo, business info, tenure, and GMV on the front. Back side shows strategic insights for CSM and engineering teams, plus a link to the full profile.
 
-## 🚀 Quick Start
+Real-time search works by name, business name, or niche. Filters by business stage. Mobile responsive, so it works on phones too.
 
-### Prerequisites
-- Node.js 18+
-- Git
-- Vercel account (for deployment)
+## Tech Stack
 
-### Installation
+Next.js 14, React, Tailwind CSS. Images are optimized. Deploys to Vercel. Hero data lives in a JSON file.
 
-```bash
-# Clone the repo
-git clone https://github.com/tiagamble/kajabi-hero-profiles.git
-cd kajabi-hero-profiles
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Open browser
-# http://localhost:3000
-```
-
-### Build for Production
-
-```bash
-npm run build
-npm start
-```
-
-## 🎨 Tech Stack
-
-- **Framework**: Next.js 14 (React)
-- **Styling**: Tailwind CSS
-- **Fonts**: Haffer (primary), Inter (fallback)
-- **Images**: Next.js Image optimization
-- **Deployment**: Vercel
-- **Database**: JSON (heroes.json)
-
-## 📊 Project Structure
+## Project Structure
