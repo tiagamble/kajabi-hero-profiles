@@ -66,54 +66,58 @@ export default function FlipCard({
       >
         {/* FRONT */}
         <div
-          className="absolute w-full h-full bg-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center cursor-pointer border border-kajabi-lightGreen/20"
+          className="absolute w-full h-full bg-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-between cursor-pointer border border-kajabi-lightGreen/20"
           style={{ backfaceVisibility: 'hidden' }}
         >
-          <div className="relative w-48 h-48 mb-4 rounded-full overflow-hidden border-4 border-kajabi-warmTan flex-shrink-0">
-            <Image
-              src={photo}
-              alt={name}
-              fill
-              className="object-contain object-center"
-              priority
-              sizes="(max-width: 640px) 192px, 192px"
-            />
-          </div>
+          <div />
 
-          <h3 className="text-xl font-semibold text-kajabi-black text-center mb-1">
-            {name}
-          </h3>
-          <p className="text-sm text-kajabi-darkBrown text-center mb-3 font-medium">
-            {businessName}
-          </p>
-
-          <div className="w-full space-y-2 mb-4">
-            <div className="text-center">
-              <p className="text-xs text-kajabi-darkGreen font-semibold uppercase tracking-wide">
-                {niche}
-              </p>
+          <div className="flex flex-col items-center w-full">
+            <div className="relative w-48 h-48 mb-4 rounded-full overflow-hidden border-4 border-kajabi-warmTan flex-shrink-0">
+              <Image
+                src={photo}
+                alt={name}
+                fill
+                className="object-contain object-center"
+                priority
+                sizes="(max-width: 640px) 192px, 192px"
+              />
             </div>
 
-            <div className="flex justify-center gap-2">
-              <span
-                className={`px-3 py-1 rounded-full text-xs font-semibold ${stageColor} ${stageTextColor}`}
-              >
-                {stage}
-              </span>
-            </div>
+            <h3 className="text-xl font-semibold text-kajabi-black text-center mb-1">
+              {name}
+            </h3>
+            <p className="text-sm text-kajabi-darkBrown text-center mb-3 font-medium">
+              {businessName}
+            </p>
 
-            <div className="grid grid-cols-2 gap-2 text-center">
-              <div>
-                <p className="text-xs text-kajabi-darkGreen uppercase font-semibold tracking-wide">
-                  Tenure
+            <div className="w-full space-y-2 mb-4">
+              <div className="text-center">
+                <p className="text-xs text-kajabi-darkGreen font-semibold uppercase tracking-wide">
+                  {niche}
                 </p>
-                <p className="text-sm font-medium text-kajabi-black">{tenure}</p>
               </div>
-              <div>
-                <p className="text-xs text-kajabi-darkGreen uppercase font-semibold tracking-wide">
-                  GMV
-                </p>
-                <p className="text-sm font-medium text-kajabi-black">{gmv}</p>
+
+              <div className="flex justify-center gap-2">
+                <span
+                  className={`px-3 py-1 rounded-full text-xs font-semibold ${stageColor} ${stageTextColor}`}
+                >
+                  {stage}
+                </span>
+              </div>
+
+              <div className="grid grid-cols-2 gap-2 text-center">
+                <div>
+                  <p className="text-xs text-kajabi-darkGreen uppercase font-semibold tracking-wide">
+                    Tenure
+                  </p>
+                  <p className="text-sm font-medium text-kajabi-black">{tenure}</p>
+                </div>
+                <div>
+                  <p className="text-xs text-kajabi-darkGreen uppercase font-semibold tracking-wide">
+                    GMV
+                  </p>
+                  <p className="text-sm font-medium text-kajabi-black">{gmv}</p>
+                </div>
               </div>
             </div>
           </div>

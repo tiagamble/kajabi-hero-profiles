@@ -122,7 +122,7 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {filteredHeroes.map((hero) => (
-                <div key={hero.id} className="h-96">
+                <div key={hero.id} className="h-full min-h-[500px]">
                   <FlipCard {...hero} />
                 </div>
               ))}
