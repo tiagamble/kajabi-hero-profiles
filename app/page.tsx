@@ -39,14 +39,27 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           {/* Logo */}
           <div className="flex items-center gap-4 mb-6">
-            <svg width="40" height="40" viewBox="0 0 40 40" className="flex-shrink-0">
-              <rect width="40" height="40" fill="#1a1a1a" rx="3"/>
-              <g>
-                <polygon points="20,12 28,12 20,20 28,28 20,28 12,20" fill="#d4a574" opacity="0.8"/>
-                <polygon points="20,12 28,12 20,20" fill="#e8c9a8" opacity="0.6"/>
-              </g>
+            <svg width="36" height="36" viewBox="247.5 144.331 119.839 119.839" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
+              <rect x="247.5" y="144.331" width="119.839" height="119.839" fill="#0A0A0A" rx="3"/>
+              <path d="M307.422 204.247L273.864 170.695H340.974L307.422 204.247Z" fill="url(#paint0_kajabi)"/>
+              <path d="M340.974 237.793L273.865 237.804L307.422 204.246L340.974 237.793Z" fill="url(#paint1_kajabi)"/>
+              <path d="M307.422 204.247L273.864 237.805V170.695L307.422 204.247Z" fill="url(#paint2_kajabi)"/>
+              <defs>
+                <linearGradient id="paint0_kajabi" x1="307.709" y1="204.54" x2="307.709" y2="171.057" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="white"/>
+                  <stop offset="1" stopColor="white" stopOpacity="0.8"/>
+                </linearGradient>
+                <linearGradient id="paint1_kajabi" x1="307.416" y1="204.246" x2="274.227" y2="237.436" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="white" stopOpacity="0.3"/>
+                  <stop offset="1" stopColor="white" stopOpacity="0.5"/>
+                </linearGradient>
+                <linearGradient id="paint2_kajabi" x1="274.227" y1="204.54" x2="307.709" y2="204.54" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="white" stopOpacity="0.8"/>
+                  <stop offset="1" stopColor="white" stopOpacity="0.5"/>
+                </linearGradient>
+              </defs>
             </svg>
-            <span className="text-kajabi-black font-bold text-xl">kajabi</span>
+            <span className="text-kajabi-black font-bold text-lg">kajabi</span>
             <span className="text-kajabi-darkGreen/20 text-2xl">•</span>
             <h1 className="text-2xl font-semibold text-kajabi-black">
               Hero Open House
