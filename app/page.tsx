@@ -38,10 +38,16 @@ export default function Home() {
       <div className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-kajabi-lightGreen/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           {/* Logo */}
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 bg-kajabi-black rounded-sm flex items-center justify-center">
-              <span className="text-kajabi-gold font-bold text-lg">K</span>
-            </div>
+          <div className="flex items-center gap-4 mb-6">
+            <svg width="40" height="40" viewBox="0 0 40 40" className="flex-shrink-0">
+              <rect width="40" height="40" fill="#1a1a1a" rx="3"/>
+              <g>
+                <polygon points="20,12 28,12 20,20 28,28 20,28 12,20" fill="#d4a574" opacity="0.8"/>
+                <polygon points="20,12 28,12 20,20" fill="#e8c9a8" opacity="0.6"/>
+              </g>
+            </svg>
+            <span className="text-kajabi-black font-bold text-xl">kajabi</span>
+            <span className="text-kajabi-darkGreen/20 text-2xl">•</span>
             <h1 className="text-2xl font-semibold text-kajabi-black">
               Hero Open House
             </h1>
