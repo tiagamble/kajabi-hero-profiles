@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import { useRouter } from 'next/navigation'
 import FlipCard from './components/FlipCard'
 import heroes from './data/heroes.json'
 
@@ -13,9 +14,15 @@ const STAGE_DEFINITIONS = {
 }
 
 export default function Home() {
+  const router = useRouter()
   const [searchQuery, setSearchQuery] = useState('')
   const [filterStage, setFilterStage] = useState<string | null>(null)
   const [showStageInfo, setShowStageInfo] = useState(false)
+
+  const handleLogout = async () => {
+    await fetch('/api/logout', { method: 'POST' })
+    router.push('/login')
+  }
 
   const filteredHeroes = useMemo(() => {
     return heroes.filter((hero) => {
@@ -37,8 +44,10 @@ export default function Home() {
       {/* Header */}
       <div className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-kajabi-lightGreen/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          {/* Logo */}
-          <div className="flex items-center gap-4 mb-6">
+          {/* Header with Logo and Logout */}
+          <div className="flex items-center justify-between mb-6">
+            {/* Logo */}
+            <div className="flex items-center gap-4">
             <svg width="36" height="36" viewBox="247.5 144.331 119.839 119.839" fill="none" xmlns="http://www.w3.org/2000/svg" className="flex-shrink-0">
               <rect x="247.5" y="144.331" width="119.839" height="119.839" fill="#0A0A0A" rx="3"/>
               <path d="M307.422 204.247L273.864 170.695H340.974L307.422 204.247Z" fill="url(#paint0_kajabi)"/>
@@ -64,6 +73,13 @@ export default function Home() {
             <h1 className="text-2xl font-semibold text-kajabi-black">
               Hero Open House
             </h1>
+            </div>
+            <button
+              onClick={handleLogout}
+              className="px-4 py-2 text-sm font-medium text-kajabi-darkGreen hover:text-kajabi-darkBrown transition-colors"
+            >
+              Logout
+            </button>
           </div>
 
           {/* Search & Filters */}
