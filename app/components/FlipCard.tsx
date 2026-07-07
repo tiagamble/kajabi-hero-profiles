@@ -13,6 +13,7 @@ interface HeroCardProps {
   tenure: string
   gmv: string
   photo: string
+  website: string
   csmFocus: string
   csmContext: string
   engineeringFocus: string
@@ -29,6 +30,7 @@ export default function FlipCard({
   tenure,
   gmv,
   photo,
+  website,
   csmFocus,
   csmContext,
   engineeringFocus,
@@ -86,9 +88,18 @@ export default function FlipCard({
             <h3 className="text-xl font-semibold text-kajabi-black text-center mb-1">
               {name}
             </h3>
-            <p className="text-sm text-kajabi-darkBrown text-center mb-3 font-medium">
+            <p className="text-sm text-kajabi-darkBrown text-center mb-2 font-medium">
               {businessName}
             </p>
+            <a
+              href={website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-kajabi-warmTan hover:text-kajabi-darkBrown underline text-center mb-3 block font-medium"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {website.replace('https://', '').replace('www.', '').replace(/\/$/, '')}
+            </a>
 
             <div className="w-full space-y-2 mb-4">
               <div className="text-center">
