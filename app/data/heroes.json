@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Abigail Wald",
-    "businessName": "Wald Media",
+    "businessName": "Mother Flipping Awesome",
     "niche": "Online Courses & Community",
     "stage": "Scale",
     "tenure": "9.2 years",
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "name": "Hannah Summerhill",
-    "businessName": "The Hannah Summerhill Show",
+    "businessName": "Hannah Summerhill",
     "niche": "Coaching & Membership",
     "stage": "Growth",
     "tenure": "1.2 years",
@@ -36,8 +36,8 @@
   {
     "id": 3,
     "name": "Joseph Beckmann",
-    "businessName": "The Membership Guy",
-    "niche": "Membership & Community",
+    "businessName": "Checkride Study System",
+    "niche": "Pilot Training & Certifications",
     "stage": "Launch",
     "tenure": "98 days",
     "gmv": "$15.7K",
@@ -53,7 +53,7 @@
   {
     "id": 4,
     "name": "John Henny",
-    "businessName": "VoiceSchool.com",
+    "businessName": "John Henny Vocal Studio",
     "niche": "Music Education / Vocal Pedagogy & Teacher Training",
     "stage": "Established",
     "tenure": "10 years, 7 months",
@@ -70,8 +70,8 @@
   {
     "id": 5,
     "name": "John Quirk",
-    "businessName": "Quirk Media",
-    "niche": "Digital Marketing & Courses",
+    "businessName": "SoCal Wellness Retreats",
+    "niche": "Lifestyle and Wellness",
     "stage": "Transition",
     "tenure": "81 days",
     "gmv": "$10K",
@@ -87,8 +87,8 @@
   {
     "id": 6,
     "name": "Kate Butler",
-    "businessName": "Butler Coaching",
-    "niche": "Executive Coaching",
+    "businessName": "Kate Butler Books",
+    "niche": "Success Coach",
     "stage": "Scale",
     "tenure": "9.3 years",
     "gmv": "$3.16M",
@@ -104,8 +104,8 @@
   {
     "id": 7,
     "name": "Melanie Hasson",
-    "businessName": "Melanie Hasson Coaching",
-    "niche": "Lifestyle & Wellness",
+    "businessName": "Melanie Hasson",
+    "niche": "Content",
     "stage": "Growth",
     "tenure": "1.5 months",
     "gmv": "$8K",
@@ -121,8 +121,8 @@
   {
     "id": 8,
     "name": "Michelle Grinberg",
-    "businessName": "Grinberg Coaching",
-    "niche": "Personal Development",
+    "businessName": "Dulces Noches",
+    "niche": "Baby Sleep",
     "stage": "Established",
     "tenure": "6.2 years",
     "gmv": "$1.41M",
@@ -138,8 +138,8 @@
   {
     "id": 9,
     "name": "Nathania Stambouli",
-    "businessName": "Stambouli Coaching",
-    "niche": "Business Coaching",
+    "businessName": "Yogi Flight School",
+    "niche": "Fitness Coaching",
     "stage": "Scale",
     "tenure": "6.3 years",
     "gmv": "$7.1M",
@@ -155,7 +155,7 @@
   {
     "id": 10,
     "name": "Renee Tucker, DVM",
-    "businessName": "Tucker BioKinetic University",
+    "businessName": "Where Does My Horse Hurt",
     "niche": "Equine Holistic Health Education",
     "stage": "Established",
     "tenure": "9.7 years",
@@ -206,8 +206,8 @@
   {
     "id": 13,
     "name": "Terry Carter",
-    "businessName": "Carter Consulting",
-    "niche": "Business & Executive Coaching",
+    "businessName": "Uke Like The Pros",
+    "niche": "Musical Instruments",
     "stage": "Established",
     "tenure": "9.7 years",
     "gmv": "$2.46M",
