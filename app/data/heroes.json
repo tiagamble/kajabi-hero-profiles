@@ -219,5 +219,39 @@
     "engineeringContext": "Enterprise customer needs advanced features like custom reporting, advanced automation, and third-party integrations for team productivity.",
     "currentProducts": "Courses, Multiple Sites (at limit), Coaching, Community, Email, Automations, Advanced Reporting",
     "docLink": "https://docs.google.com/document/d/1IoF5uc18KdN2Pk3oNwf9i4vPZ_CrpNLOSJqXWJ2AeAw/edit?usp=drive_link"
+  },
+  {
+    "id": 14,
+    "name": "Ryan Peebles",
+    "businessName": "Core Balance Training",
+    "niche": "Online Physical Therapy Education; Chronic Lower Back Pain",
+    "stage": "Established",
+    "tenure": "6+ years",
+    "gmv": "$3.86M",
+    "photo": "/heroes/Ryan_Peebles.jpeg",
+    "website": "https://www.corebalancetraining.com/",
+    "csmFocus": "GMV decline reversal, contact limit management, and monetization optimization.",
+    "csmContext": "Critical contact ceiling (157K+ contacts accumulating). GMV declining despite audience growth (-19.7% YoY, -28.3% recent quarter). Payment processing leakage ($713K off-platform). Full Kajabi integration—described as 'basically married to Kajabi.' Requires urgent conversation on contact limits and monetization strategy.",
+    "engineeringFocus": "Contact management scalability, payment processing optimization, and automation performance.",
+    "engineeringContext": "Managing 1,000-1,500 automations with 200+ tags. Branded app deployed. High contact load requires optimization for performance and deliverability. Payment processing split between Kajabi and PayPal/Stripe ($713K leakage opportunity).",
+    "currentProducts": "Subscription Membership, Branded App, Automations, Email Marketing",
+    "docLink": "https://docs.google.com/document/d/1LnNBRVxLSX59DX8K2PGjn31e9Up34nyXSYniYi-15C0/edit?usp=drive_link"
+  },
+  {
+    "id": 15,
+    "name": "Lauren Messiah",
+    "businessName": "Style Boss Academy",
+    "niche": "Personal Styling Business Education",
+    "stage": "Established",
+    "tenure": "6 years",
+    "gmv": "$356.5K",
+    "photo": "/heroes/Lauren_Messiah.jpeg",
+    "website": "https://laurenmessiah.com/",
+    "csmFocus": "Monetization and conversion optimization, retention acceleration, and product portfolio optimization.",
+    "csmContext": "100% organic growth (94.6% YouTube attribution). Strong audience health (contacts +16K, members +479 recent). Trailing 12-month GMV down 12% YoY but recent quarter trending hot. Using 34 of 50 products (68%). Opportunity: Stripe-to-Kajabi Payments migration ($27K processing), conversion funnel optimization, and strategic product pruning.",
+    "engineeringFocus": "YouTube integration optimization, conversion funnel tracking, and payment processing migration.",
+    "engineeringContext": "Heavy YouTube reliance (94.6% traffic). Currently using 34 products with room for consolidation. Contacts at 57% of limit (14,256/25,000). Stripe processing ($27K annual) ready for Kajabi Payments migration. Strong candidate for conversion optimization and product strategy consulting.",
+    "currentProducts": "Courses, Podcast, Downloads, Directory, Email Marketing, 34 total products",
+    "docLink": "https://docs.google.com/document/d/1fmFCBYR6m_LxMz9GZEemR8YUlKrRJLhrsktKyeuKlhQ/edit?usp=drive_link"
   }
 ]
