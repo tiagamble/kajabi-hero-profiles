@@ -253,5 +253,22 @@
     "engineeringContext": "Heavy YouTube reliance (94.6% traffic). Currently using 34 products with room for consolidation. Contacts at 57% of limit (14,256/25,000). Stripe processing ($27K annual) ready for Kajabi Payments migration. Strong candidate for conversion optimization and product strategy consulting.",
     "currentProducts": "Courses, Podcast, Downloads, Directory, Email Marketing, 34 total products",
     "docLink": "https://docs.google.com/document/d/1fmFCBYR6m_LxMz9GZEemR8YUlKrRJLhrsktKyeuKlhQ/edit?usp=drive_link"
+  },
+  {
+    "id": 16,
+    "name": "Dana Claudat",
+    "businessName": "The Tao of Dana",
+    "niche": "Feng Shui & Spiritual Wellness; Professional Certification",
+    "stage": "Established",
+    "tenure": "8.4 years",
+    "gmv": "$165.4K",
+    "photo": "/heroes/Dana_claudat.jpg",
+    "website": "https://www.fengshuimagical.com/",
+    "csmFocus": "GMV decline reversal (down 8.9% YoY despite member growth +28%), monetization optimization, payment processor consolidation, and AI/Claude integration exploration.",
+    "csmContext": "OG Kajabi user (Account #13065, Feb 2017) with 20-year online presence. Member growth +28% signals audience expansion but GMV decline indicates monetization gap. $81K annual off-platform payment processing (49.1% of GMV) represents consolidation opportunity. Expressed interest in AI integration and Claude connectivity for content creation.",
+    "engineeringFocus": "AI-assisted content generation (camp descriptions, consultations, email sequences), practitioner directory as marketplace feature, membership lifecycle automation, podcast analytics integration.",
+    "engineeringContext": "Using 25 products with room for consolidation. Practitioner network spans multiple continents—opportunity for directory/marketplace feature. Podcast distribution and analytics needed. AI integration for camp/consultation description generation could improve content velocity and personalization.",
+    "currentProducts": "Tiered Camps, Professional Certification, Practitioner Network, Podcast, Branded App, Email Marketing, 25 total products",
+    "docLink": "https://docs.google.com/document/d/1bM24_HIUegHQnPLYEJ_lBQKyezSRIcODjyqHaULwd6g/edit?tab=t.0"
   }
 ]
